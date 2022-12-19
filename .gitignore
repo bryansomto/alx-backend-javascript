@@ -1,3 +1,2 @@
 node_modules/
-*.js
 !babel.config.js
