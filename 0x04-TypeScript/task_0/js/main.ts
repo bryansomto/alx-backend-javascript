@@ -6,15 +6,15 @@ interface Student {
 }
 
 const student1: Student = {
-  firstName: 'Paul',
-  lastName: 'Jerry',
+  firstName: 'Bryan',
+  lastName: 'Ike-Adinnu',
   age: 27,
   location: 'Nigeria'
 }
 
 const student2: Student = {
-  firstName: 'Jerry',
-  lastName: 'Parkerson',
+  firstName: 'Somto',
+  lastName: 'Adesina',
   age: 28,
   location: 'Edo state'
 }
@@ -51,7 +51,7 @@ studentList.forEach((student) => {
   const column2: HTMLTableCellElement = document.createElement('td');
 
   column1.innerText = student.firstName;
-  column2.innerText = student.lastName;
+  column2.innerText = student.location;
 
   column1.style.border = '1px solid gray';
   column2.style.border = '1px solid gray';
